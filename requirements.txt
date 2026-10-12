@@ -1,0 +1,9 @@
+numpy
+reportlab
+pandas
+opencv-python
+streamlit
+ultralytics          # YOLO detector (training + inference)
+flirimageextractor   # reads FLIR radiometric JPEGs (needs exiftool installed)
+pytesseract        # reads the scale numbers from colour-only pictures (also needs the tesseract program)
+fluke-thermal-reader   # reads Fluke .is2 files

@@ -1,0 +1,15 @@
+# YOLO dataset config. Put images/labels like this:
+#   data/dataset/images/train/*.jpg   data/dataset/labels/train/*.txt
+#   data/dataset/images/val/*.jpg     data/dataset/labels/val/*.txt
+path: data/dataset
+train: images/train
+val: images/val
+names:
+  0: CT
+  1: VT
+  2: busbar
+  3: switchgear
+  4: MCB
+  5: MCCB
+  6: cable
+  7: terminal_block
